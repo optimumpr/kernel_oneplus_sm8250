@@ -1,4 +1,3 @@
-// SPDX-License-Identifier: GPL-2.0-only
 /*
  * Copyright (c) 2016-2020, The Linux Foundation. All rights reserved.
  */
@@ -930,5 +929,3 @@ static int __init rpmh_driver_init(void)
 }
 arch_initcall(rpmh_driver_init);
 
-MODULE_LICENSE("GPL v2");
-MODULE_DESCRIPTION("Qualcomm RPM-Hardened (RPMH) Communication driver");
